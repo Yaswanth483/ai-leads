@@ -2,7 +2,7 @@ pipeline{
     agent any
     environment{
         TOMCAT_IP="172.31.11.38"
-        TOMCAT_USER="ec2-user"
+        TOMCAT_USER="ec2-user"gihihdeei2ii
 
     }
     stages{
