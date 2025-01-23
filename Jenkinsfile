@@ -8,7 +8,7 @@ pipeline{
     stages{
         stage("Maven Build"){
             steps{
-                sh 'mvn clean package'   jcsid dh viad da 
+                sh 'mvn clean package'   
             }
         }
         stage("Tomcat Deploy - Dev"){
